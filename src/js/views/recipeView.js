@@ -2,7 +2,7 @@ import icons from '../../img/icons.svg';
 import View from './view';
 
 ///////////////////////////////////////
-console.log('modified again');
+
 class RecipeView extends View {
   _parentEl = document.querySelector('.recipe');
   _errMessage = 'We could not find that recipe, Please try another one!';

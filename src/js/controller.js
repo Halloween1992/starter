@@ -40,6 +40,10 @@ const controllerSearch = async function () {
   }
 };
 
+const newFeature = function () {
+  console.log('welcome to the app');
+};
+
 const controllerPagination = function (goTo) {
   // Render search result
   resultView.render(model.searchResultPerPage(goTo));
@@ -59,5 +63,6 @@ const init = function () {
   recipeView.addHandlerRecipeUpdate(controllerUpdateServing);
   searchView.addHandlerSearch(controllerSearch);
   paginationView.addHandlerClick(controllerPagination);
+  newFeature();
 };
 init();
