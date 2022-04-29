@@ -4,7 +4,6 @@ import searchView from './views/searchView.js';
 import resultView from './views/resultView.js';
 import paginationView from './views/paginationView.js';
 import 'regenerator-runtime';
-import 'core.js';
 import { async } from 'regenerator-runtime';
 
 // if (module.hot) {
